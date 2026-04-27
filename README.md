@@ -17,7 +17,7 @@
 * VCC: 接 3.3V
 
 ## 軟體需求
-- 韌體: MicroPython v1.20+ 
+- 韌體: MicroPython v1.20+ (本專案使用v1.18.0)
 - 函式庫: `umqttsimple.py`, `ssd1306.py`
 - 開發工具: VS Code + MicroPico Extension
 
