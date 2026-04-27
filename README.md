@@ -43,3 +43,5 @@
   <img width="690" height="691" alt="image" src="https://github.com/user-attachments/assets/d448c54d-bd7f-4149-95e9-bb933ab12a21" />
   <img width="1016" height="762" alt="166598" src="https://github.com/user-attachments/assets/3eb6156a-ffb5-42ad-95dc-8700b16186fa" />
  
+## 參考資料
+* https://www.taiwaniot.com.tw/the-all/esp32-mqtt-iot-cloud-tutorial/
