@@ -22,7 +22,7 @@
 - 開發工具: VS Code + MicroPico Extension
 
 ## 實驗流程
-* 初始化：接通 ESP32 電源，啟動手機熱點（確認頻段為 2.4GHz），並上傳main.py, ssd1306.py, umqttsimple.py至開發版上(三個檔案右鍵點選upload project to pico)。
+** 初始化 ** ：接通 ESP32 電源，啟動手機熱點（確認頻段為 2.4GHz），並上傳main.py, ssd1306.py, umqttsimple.py至開發版上(三個檔案右鍵點選upload project to pico)。
   
 * 連線檢查：按下Terminal的Run, 觀察 Terminal 是否出現 Wi-Fi is connected。
   
