@@ -11,7 +11,7 @@
 * MQTT 即時數據傳輸 (使用 EMQX Broker)
 * 本地 OLED 數值顯示
 
-##接線方式
+## 接線方式
 * DHT11 (Signal : Pin 13)
 * OLED (SCL: Pin 22, SDA : Pin 21)
 * VCC: 接 3.3V
