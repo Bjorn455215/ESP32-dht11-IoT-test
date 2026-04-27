@@ -16,5 +16,10 @@
 * OLED (SCL: Pin 22, SDA : Pin 21)
 * VCC: 接 3.3V
 
+## 軟體需求
+- 韌體: MicroPython v1.20+ 
+- 函式庫: `umqttsimple.py`, `ssd1306.py`
+- 開發工具: VS Code + MicroPico Extension
+
 ## 實驗流程
 *
