@@ -15,3 +15,6 @@
 * DHT11 (Signal : Pin 13)
 * OLED (SCL: Pin 22, SDA : Pin 21)
 * VCC: 接 3.3V
+
+## 實驗流程
+*
