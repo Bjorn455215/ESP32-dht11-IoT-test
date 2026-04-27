@@ -22,18 +22,15 @@
 - 開發工具: VS Code + MicroPico Extension
 
 ## 實驗流程
-初始化：接通 ESP32 電源，啟動手機熱點（確認頻段為 2.4GHz），並上傳main.py, ssd1306.py, umqttsimple.py至開發版上(三個檔案右鍵點選upload project to pico)。
-
-連線檢查：按下Terminal的Run, 觀察 Terminal 是否出現 Wi-Fi is connected。
-
-通訊握手：確認 MQTT Connected! 字樣出現，代表已成功與雲端 Broker 建立連線。
-
-雲端驗證：
-
-* 開啟 EMQX Web Client 網頁。
-
-* 設定 Host 為 broker.emqx.io 並進行 Connect。
-
-* 訂閱 (Subscribe) 主題：xxxProject/#。(主題為舉例，一定要和main.py內的設定相同才能接收資料)
-
-數據分析：觀察網頁接收到的 Payload 是否與 OLED 顯示之溫濕度一致。
+* 初始化：接通 ESP32 電源，啟動手機熱點（確認頻段為 2.4GHz），並上傳main.py, ssd1306.py, umqttsimple.py至開發版上(三個檔案右鍵點選upload project to pico)。
+  
+* 連線檢查：按下Terminal的Run, 觀察 Terminal 是否出現 Wi-Fi is connected。
+  
+* 通訊握手：確認 MQTT Connected! 字樣出現，代表已成功與雲端 Broker 建立連線。
+  
+* 雲端驗證：
+* * 開啟 EMQX Web Client 網頁。
+* * 設定 Host 為 broker.emqx.io 並進行 Connect。
+* * 訂閱 (Subscribe) 主題：xxxProject/#。(主題為舉例，一定要和main.py內的設定相同才能接收資料)
+    
+* 數據分析：觀察網頁接收到的 Payload 是否與 OLED 顯示之溫濕度一致。
