@@ -29,7 +29,7 @@
 * 通訊握手：確認 MQTT Connected! 字樣出現，代表已成功與雲端 Broker 建立連線。
   
 * 雲端驗證：
-  * 開啟 EMQX Web Client 網頁。
+  * 開啟 EMQX Web Client 網頁 https://www.emqx.com/en/mqtt/public-mqtt5-broker。
   * 設定 Host 為 broker.emqx.io 並進行 Connect。
   * 訂閱 (Subscribe) 主題：xxxProject/#。(主題為舉例，一定要和main.py內的設定相同才能接收資料)
     
